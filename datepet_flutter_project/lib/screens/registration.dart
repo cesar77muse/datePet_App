@@ -102,7 +102,7 @@ class Registration extends StatelessWidget{
             TextSpan(
               text: 'Politica de privacidad ',
               
-              recognizer: _gestureRecognizer2,
+              recognizer: _gestureRecognizer,
               style: TextStyle(
                 decoration: TextDecoration.underline,
                 color: Colors.grey,
