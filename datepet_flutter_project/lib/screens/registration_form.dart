@@ -96,6 +96,9 @@ class _RegistrationFormState extends State<RegistrationForm> {
          keyboardType: TextInputType.number,
          
         ),
+        // texto abajo del campo
+        Text("Tendrás que confirmar este número mas adelante",
+        style: TextStyle(fontSize: 10),textAlign: TextAlign.left,),  /// no me dejo correrlo a la izquierda
         // campo de password
         TextFormField(
           obscureText: true,
@@ -113,6 +116,8 @@ class _RegistrationFormState extends State<RegistrationForm> {
       )
          ),
         ),
+        // texto abajo de campo
+        Text('Debe tener mínimo 8 carácteres',style: TextStyle(fontSize: 10)),
         // campo repite contraseña
         // campo de password
         TextFormField(

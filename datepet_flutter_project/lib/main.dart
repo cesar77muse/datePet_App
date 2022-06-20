@@ -1,3 +1,4 @@
+import 'package:datepet_flutter_project/screens/code_confirmation.dart';
 import 'package:datepet_flutter_project/screens/registration.dart';
 import 'package:datepet_flutter_project/screens/registration_form.dart';
 import 'package:datepet_flutter_project/screens/wecolme.dart';
@@ -13,7 +14,7 @@ class DatePetApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Material App',   // belongs to register not seen
-      home: RegistrationForm()
+      home: CodeConfirmation()
       );
   }
 }
