@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+//import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 class Registration extends StatelessWidget{
   
   Registration({super.key});
@@ -52,7 +52,10 @@ class Registration extends StatelessWidget{
             // Boton de continua con google
           ElevatedButton.icon(
             onPressed: () {}, 
-            icon: Icon(FontAwesomeIcons.google),
+            icon: Icon(
+              Icons.facebook_rounded,
+              size: 24,
+            ),
             label: Text('Continua con Google'),
             
             ),
